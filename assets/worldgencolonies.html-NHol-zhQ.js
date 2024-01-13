@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c}from"./app-LQIMdUjF.js";const r={};function n(t,_){return o(),c("div")}const a=e(r,[["render",n],["__file","worldgencolonies.html.vue"]]);export{a as default};

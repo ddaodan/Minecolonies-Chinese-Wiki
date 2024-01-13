@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as c,c as t}from"./app-LQIMdUjF.js";const o={};function r(s,_){return c(),t("div")}const n=e(o,[["render",r],["__file","schematics.html.vue"]]);export{n as default};
