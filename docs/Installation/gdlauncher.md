@@ -2,6 +2,7 @@
 title: GDLauncher 安装
 ---
 # GDLauncher 安装
+[[toc]]
 Installing MineColonies via GDLauncher, a custom Minecraft launcher, is the recommended method.
 
 GDLauncher Installation

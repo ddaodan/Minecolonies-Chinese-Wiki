@@ -3,7 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 export default {
   theme: hopeTheme({
     lang: 'zh-CN',
-    logo: "./assets/img/minecolonies_wiki.png",
+    logo: "./assets/image/minecolonies_wiki.png",
     navbar: [
       {text: "主页", link: "/"},
       {
@@ -40,7 +40,7 @@ export default {
       },
     },
   }),
-  base: "/",
+  base: "/Minecolonies-Chinese-Wiki/",
   title: "模拟殖民地 中文Wiki",
   description: "由爱好者建立的模拟殖民地非官方中文Wiki",
   markdown: {

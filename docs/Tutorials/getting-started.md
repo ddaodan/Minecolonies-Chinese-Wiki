@@ -2,7 +2,7 @@
 title: "入门"
 ---
 # 入门
-
+[[toc]]
 This tutorial assumes you have already installed the mod or modpack. If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Java (Forge) [here](../../source/installation/java), on GDLauncher [here](../../source/installation/gdlauncher), and on the Curseforge Launcher [here](../../source/installation/curseforge). 
 
 ## Quick Walkthrough 

@@ -2,7 +2,7 @@
 title: Minecraft Java版
 ---
 # Minecraft Java版
-
+[[toc]]
 ## Installing MineColonies Mod on your original Minecraft Launcher
 
 - This process is for installing only the MineColonies mod in your original Minecraft launcher. You will *not* be able to connect to the **MineColonies Official Servers** due to the servers having a balanced variety of other mods as well.
