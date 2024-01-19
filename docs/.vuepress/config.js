@@ -7,31 +7,15 @@ export default {
   theme: hopeTheme({
     logo: "./assets/image/minecolonies_wiki.png",
     navbar: [
-      {text: "主页", link: "/"},
-      {
-        text: "安装",
-        prefix: "Installation/",
-        link: "",
-        children: [
-          "gdlauncher",
-          "java",
-          "hmcl"
-        ]
-      },
-      {
-        text: "教程",
-        prefix: "Tutorials/",
-        children: [
-          "getting-started",
-          "datapacks",
-          "schematics",
-          "worldgencolonies"
-        ]
-      }
+      {text: "主页",link: "/",icon: "home"},
+      {text: "安装",link: "Installation/"},
+      {text: "教程",link: "Tutorials/"},
+      {text: "建筑",link: "Buildings/"},
     ],
     sidebar: {
       "/Installation/": "structure",
       "/Tutorials/": "structure",
+      "/Buildings/": "structure",
       "/": [
         "start"
       ],
@@ -44,7 +28,8 @@ export default {
       searchPro: {
         indexContect: true,
         autoSuggestions: true,
-      }
+      },
+      pwa: true
     },
     pageInfo: ["Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
   }),
