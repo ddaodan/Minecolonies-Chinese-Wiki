@@ -46,7 +46,7 @@ title: "入门"
 
 在这一点上，你可能已经厌倦了将所有资源交给建筑师，然后再从渔夫、林业师、矿工等处取回。你可能还想将物品存放在一个地方。好吧，{% building_link warehouse %} 和 {% building_link courier %} 就是你正在寻找的解决方案！{% worker_link courier %} 在仓库和所有工作场所之间传送物品。[剪贴板](../Items/clipboard)和[资源卷轴](../Items/resourcescroll)可能会有帮助！
 
-### 第9步: 其余的殖民地
+### 第9步：其余的殖民地
 
 在这一步，你需要根据你的游戏方式和殖民地的需求来决定下一步做什么。但是你有几个方向可供选择。一旦获得七名居民，你可能会受到袭击，因此可能想要建造一个[卫兵塔](../Buildings/guardtower)，或者可能有一名生病的居民，想要建造一个[医院](../Buildings/hospital)，或者可能决定建造一个[锯木厂](../Buildings/sawmill)来为工人制作所需的物品。或者你可能只是想拥有一个特定的工人，或者找到了一个适合建造特定小屋的好地方。你决定你的殖民地将如何发展！
 
@@ -117,38 +117,38 @@ title: "入门"
 
 ### 第3步
 
-Before any other building can be built, you must craft the {% building_link builder %} block and use your [build tool](../../source/items/buildtool) to place it. Once you commit to the placement of the Builder's Hut (the green checkmark), the block will be placed and a Builder will be automatically assigned (or you can manually assign one with the best [traits](../../source/systems/worker) for a Builder if you changed this in the setting tab in the 市政厅 its GUI).
+在建造任何其他建筑之前，你必须制作[建筑工小屋]方块并使用你的[建筑工具]将其放置。一旦你确认放置建筑师小屋（绿色的对勾），方块将被放置，并且将自动分配一个建筑师(（或者你可以在市政厅GUI的设置选项卡中手动分配一个拥有最佳[特质](../Systems/worker)的建筑师，如果你在其中更改了此设置）。
 
-You now officially have a {% worker_link builder %}! CONGRATULATIONS!
+你现在正式拥有一个[建筑工小屋]！恭喜！
 
-When accessing the {% building builder %} block by right-clicking on it, you will see a GUI with different options:
+通过右键单击[建筑工小屋]方块访问它时，你将看到一个具有不同选项的GUI：
 
-![Builder's hut GUI](/assets/image/gui/buildings/builder/main.png)
+![建筑工小屋GUI](/assets/image/gui/buildings/builder/main.png)
 
-You will have to click Build Options on the {% building builder %}, then click Build Building. This will give your new {% worker builder %} the build assignment so they can build their own hut first. If the {% building builder %} is not built, the {% worker builder %} cannot build any other buildings. 
+你将点击[建筑工小屋]上的“建造选项”，然后点击“建造建筑”。这将为你的新[建筑工]提供建造任务，以便他们首先建造自己的小屋。如果[建筑工小屋]没有建造，[建筑工]将无法建造任何其他建筑。
 
-The {% worker builder %} will ask for the materials they need. Right-click on them when they have a red icon above their head to see the materials they currently need.
+[建筑工]将询问他们需要的材料。当他们头顶上方有红色图标时，右键单击他们以查看他们当前所需的材料。
 
 ::: tip
-If you see that the Builder hasn't finished a build order and you don't see them asking for any materials, go to the Builder's Hut, recall the Builder, and wait a bit to see what they need. Also, check page 2 of the Builder's Hut GUI and see what resources are in red (those are missing resources).
+如果你发现建筑师没有完成建造任务并且你看不到他们正在请求任何材料，请前往建筑师小屋，召回建筑师，并等待一段时间以查看他们需要什么。此外，检查建筑师小屋 GUI 的第二页，查看哪些资源是红色的（这些是缺少的资源）。
 :::
 
 ### 第4步
 
-Once the Builder has finished their hut, you're ready to start building any other building you want! Just craft the desired block and use your [建筑工具] to place the building. Once it's placed, go into the GUI for the new block, click Build Options, and then click Build Building. It's that simple!
+一旦建筑师完成了他们的小屋，你就可以开始建造任何其他你想要的建筑了！只需制作所需的方块，并使用你的[建筑工具]将其放置。一旦放置，进入新方块的GUI，点击“建造选项”，然后点击“建造建筑”。就是这么简单！
 
 ::: tip
-Consider upgrading the Builder's Hut to level 2 as soon as you can so the Builder can upgrade other buildings.
+考虑尽早将建筑师小屋升级到第2级，这样建筑师就可以升级其他建筑物。
 :::
 
 ### 最后说明
 
-You have now completed the most important steps to start and create your colony!
+你现在已经完成了开始和创建殖民地的最重要步骤！
 
-Your question now is probably, "What to build next?" The [市政厅], {% building_link mine %}, {% building_link lumberjack %}, {% building_link farm %}, {% building_link fisher %}, {% building_link guardtower %}, {% building_link courier %}, {% building_link bakery %}, {% building_link restaurant %}, and more are probably good places to start. 
+你现在可能的问题是，接下来要建造什么？[市政厅]、[矿场]、[伐木工]、农场、渔夫、卫兵塔、{% building_link courier %}、面包房、餐厅等可能是一个不错的开始。
 
-But you start with only 4 citizens! Now what? Well, the next step after your 4 citizens are employed and are working hard is to plan and place the {% building_link house %}. This will give you additional citizens for each level of a House you build in your colony (after your inital four citizens are housed)! Now, what do you do with so many citizens? You cannot assign more than 1 worker per hut. Therefore, consider building additional huts for more Miners, Foresters, Builders, Farmers, Fishers, and many more! If you struggle with keeping track of what everyone needs, consider making a [Clipboard](../Items/clipboard) and [Resource Scroll](../Items/resourcescroll). Though you only need one Clipboard, you can make a Resource Scroll for each Builder to keep track of their needs!
+但是你只有4名居民！现在怎么办呢？嗯，在你的4名居民就业并努力工作之后，下一个步骤是计划并放置[住宅]。这将为你的殖民地每建造一个房屋的每个级别（在你的最初四名居民得到住宿后）提供额外的居民！那么，对于这么多居民，你该怎么办呢？你不能为每个小屋分配超过1名工人。因此，考虑建造更多的小屋，以获取更多的矿工、林业师、建筑师、农民、渔夫等！如果你难以跟踪每个人的需求，请考虑制作一个[剪贴板](../Items/clipboard)和[资源卷轴](../Items/resourcescroll)。尽管你只需要一个剪贴板，但你可以为每位建筑师制作一个资源卷轴，以跟踪他们的需求！
 
 ::: tip
-Upgrade your huts to the highest level possible (level 5 for all of them except the {% building_link tavern %}) to get achievements (and increase the speed at which the worker [levels](../Systems/worker)).
+将你的小屋升级到最高可能的级别（除了[酒馆]，它的最高级别为5）以获得成就，并提高工人[等级](../Systems/worker)的升级速度。
 :::

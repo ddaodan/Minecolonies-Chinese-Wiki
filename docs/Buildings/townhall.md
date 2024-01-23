@@ -5,46 +5,45 @@ title: "市政厅"
 # 市政厅
 市政厅是殖民地的中心部分。
 
-**Note:** The Town Hall block **cannot** be crafted until **after** you have already placed the Town Hall you get from the [Supply Ship/Camp](/Items/supplycampandship). If needed, it can also be obtained in creative mode like any other block or by commands.
-{% endinfobox_building %}
+市政厅方块**不能**在已经放置了通过[补给营地/船](../Items/supplycampandship)获得的市政厅**之前**在工作台制作。如果有需要，它也可以像其他方块一样在创造模式下获得，或通过命令获取。
 
-## Starting a New Colony
+## 创建新的殖民地
 
-### Scouting the Area
+### 勘察区域
 
-Make sure you scout your area carefully before you decide where you want to place your Town Hall. Your colony will start with a 4 chunk radius (4 chunks in each direction) from the Town Hall block. Make sure this is where you want your colony to be.
+在决定放置市政厅的位置之前，请确保仔细勘察您的区域。您的殖民地将以市政厅方块为中心的4块半径（每个方向4块）开始。确保这是您想要建立殖民地的地方。
 
-### Placing your Town Hall
+### 放置您的市政厅
 
-After you have carefully decided where you want to place your Town Hall (remember, the position where you placed the Town Hall block will be the center of your colony's protected area. Once placed, the area will be set and cannot be changed), use your [build tool](/Items/buildtool) to place the Town Hall block.
+在仔细决定放置市政厅的位置后（请记住，您放置市政厅方块的位置将是您殖民地受保护区域的中心。一旦放置，该区域将被确定，无法更改），使用您的[建筑工具]将市政厅方块放置在地面上。
 
-Right-click the ground in the area you want to place the Town Hall. The building GUI will display showing the 3D preview of the building. You will be able to use the arrow buttons to move the building to the location you desire. 
+右键单击您希望放置市政厅的区域。建筑的GUI将显示，显示建筑的3D预览。您可以使用箭头按钮将建筑移动到所需的位置。
 
-**Note:** Make sure you use the + and - options in the GUI to make sure you have the ground level of the hut where you want the ground level to be. Not all hut blocks sit on the ground.
+确保在GUI中使用`+`和`-`选项，以确保小屋的地面水平位于您希望的位置。并非所有的小屋方块都位于地面上。
 
-Once you commit to the placement of the Town Hall (green checkmark), the Town Hall block will be placed.
+一旦您确认放置市政厅（绿色对勾），市政厅方块将被放置。
 
-### Creating your Colony
+### 创建您的殖民地
 
-Once you have placed the Town Hall block you will need to right-click on it and select Create New Colony.
+一旦您放置了市政厅方块，您需要右键点击它并选择“创建新殖民地”。
 <br>
-<img alt="Creating New Colony" src="/assets/image/gui/th_colonycreationGUI.png"/>
+<img alt="Creating New Colony" src="/assets/image/gui/buildings/townhall/th_colonycreationGUI.png"/>
 
-A new colony will be created, the area of your colony will be established, and the entire area will be protected.
+一个新的殖民地将被创建，您的殖民地的范围将被确定，并且整个区域将被保护。
 
-### Protection Area
+### 保护区域
 
-When you start a colony, the area that is initially set also has protections added to it. The protection system includes blocking any player from placing/breaking or interacting with blocks of any kind, placing lava or water, and placing/lighting TNT. Once established it will also show in the informational screen.
+当您开始一个殖民地时，最初设置的区域还具有附加的保护。保护系统包括阻止任何玩家放置/破坏或与任何类型的方块交互，放置熔岩或水以及放置/点燃TNT。一旦建立，它还将显示在信息屏幕中。
 
-The protected area of your colony (once the Town Hall has been placed) will depend on the [configuration](../../source/misc/configfile), but will be 4 chunks radius by default, measured from where you placed your Town Hall block the first time. Therefore, plan carefully where you want to place your Town Hall. Your protected colony area includes mountains, hills, lakes, oceans, caves, world generated structures, etc. from bedrock to the sky limit.
+殖民地的受保护区域（一旦放置了市政厅）将取决于[配置](../Misc/configfile)，但默认情况下将是以您首次放置市政厅方块的位置为中心的4块半径。因此，请仔细规划您想要放置市政厅的位置。您受保护的殖民地区域包括从基岩到天际限制的山脉、丘陵、湖泊、海洋、洞穴、世界生成的结构等。
 
-Due to the protected area of each colony, you have to carefully scout your surroundings to make sure you are clear of any other colonies nearby preventing you from placing your Town Hall or limiting your colony area in that direction.
+由于每个殖民地的受保护区域，您必须仔细勘察周围环境，确保您周围没有其他殖民地，以防止您放置市政厅或在该方向上限制您的殖民地区域。
 
-**Note:** Once you place your Town Hall block, this will be the CENTER of your Town's protected radius. If you decide that you want your actual Town Hall building to be built in a different location (within your currently set protected radius), you can break the block and place it again with your build tool. Removing and replacing the Town Hall block will NOT remove the Protected area of your Town. The only way to remove the protected area of your colony so that you can place a Town Hall somewhere else is by a person with OP or admin permission deleting your colony through [commands](../../source/systems/command).
+一旦放置市政厅方块，这将是您城镇受保护半径的中心。如果您决定希望实际的市政厅建筑建在不同的位置（在当前设置的受保护半径内），您可以使用建筑工具打破方块，然后再次放置它。删除并替换市政厅方块不会移除您城镇的受保护区域。唯一的方法是通过拥有OP或管理员权限的人通过[命令](../Systems/command)删除您的殖民地。
 
-If there is another colony too close to your current position, you won't be able to place a Town Hall.
+如果有另一个殖民地离您当前位置太近，您将无法放置市政厅。
 
-If you try to place another Town Hall outside of your protected area, you will get a message:
+如果您尝试在受保护区域之外放置另一个市政厅，您将收到一条消息：
 
 ![Placing a Second Town Hall](/assets/image/gui/buildings/townhall/th_secondplace.png)
 
@@ -116,7 +115,7 @@ Alternatively, if you have the proper permissions, you can use [commands](../../
 **Page 2:** There are three buttons here:
 - **Pick Team Color:** Whatever color you pick from here, your Guards will have a glow of this color around them when you put them in follow mode at their {% building_link guardtower %} or {% building_link barrackstower %}. This is for the PVP system, so you know which Guards are yours when you are fighting. Your citizens' names will also be in this color.
 - **Edit Colony Flag:** Clicking this button will open up a banner designer where you can design your colony banner. Your {% worker_link knight %} will wear the finished design on their shields, and it is also used in some schematics.
-  ![Town hall GUI banner designer](/assets/image/gui/th_colonybannerdesigner.png)
+  ![Town hall GUI banner designer](/assets/image/gui/buildings/townhall/th_colonybannerdesigner.png)
 - **Switch Colony Pack:** This option controls the default selected style pack when opening the build tool.
 - **Pick Citizen Style:** The option controls how the citizens look. This feature is exclusive for donators.
 {% endbuilding_gui_content_block_custom %}
