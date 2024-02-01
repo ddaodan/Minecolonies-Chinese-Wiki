@@ -7,50 +7,56 @@ title: "市政厅"
 
 市政厅方块**不能**在已经放置了通过[补给营地/船](../Items/supplycampandship)获得的市政厅**之前**在工作台制作。如果有需要，它也可以像其他方块一样在创造模式下获得，或通过命令获取。
 
+## 信息
+
+![](/assets/image/buildings/townhall.png)
+
+**研究：** 这座建筑不需要研究。
+
 ## 创建新的殖民地
 
 ### 勘察区域
 
-在决定放置市政厅的位置之前，请确保仔细勘察您的区域。您的殖民地将以市政厅方块为中心的4块半径（每个方向4块）开始。确保这是您想要建立殖民地的地方。
+在决定放置市政厅的位置之前，请确保仔细勘察你的区域。你的殖民地将以市政厅方块为中心的4块半径（每个方向4块）开始。确保这是你想要建立殖民地的地方。
 
-### 放置您的市政厅
+### 放置你的市政厅
 
-在仔细决定放置市政厅的位置后（请记住，您放置市政厅方块的位置将是您殖民地受保护区域的中心。一旦放置，该区域将被确定，无法更改），使用您的[建筑工具]将市政厅方块放置在地面上。
+在仔细决定放置市政厅的位置后（请记住，你放置市政厅方块的位置将是你殖民地受保护区域的中心。一旦放置，该区域将被确定，无法更改），使用你的[建筑工具]将市政厅方块放置在地面上。
 
-右键单击您希望放置市政厅的区域。建筑的GUI将显示，显示建筑的3D预览。您可以使用箭头按钮将建筑移动到所需的位置。
+右键单击你希望放置市政厅的区域。建筑的GUI将显示，显示建筑的3D预览。你可以使用箭头按钮将建筑移动到所需的位置。
 
-确保在GUI中使用`+`和`-`选项，以确保小屋的地面水平位于您希望的位置。并非所有的小屋方块都位于地面上。
+确保在GUI中使用<kbd>+</kbd>和<kbd>-</kbd>选项，以确保小屋的地面水平位于你希望的位置。并非所有的小屋方块都位于地面上。
 
-一旦您确认放置市政厅（绿色对勾），市政厅方块将被放置。
+一旦你确认放置市政厅（绿色对勾），市政厅方块将被放置。
 
-### 创建您的殖民地
+### 创建你的殖民地
 
-一旦您放置了市政厅方块，您需要右键点击它并选择“创建新殖民地”。
+一旦你放置了市政厅方块，你需要右键点击它并选择“创建新殖民地”。
 <br>
 <img alt="Creating New Colony" src="/assets/image/gui/buildings/townhall/th_colonycreationGUI.png"/>
 
-一个新的殖民地将被创建，您的殖民地的范围将被确定，并且整个区域将被保护。
+一个新的殖民地将被创建，你的殖民地的范围将被确定，并且整个区域将被保护。
 
 ### 保护区域
 
-当您开始一个殖民地时，最初设置的区域还具有附加的保护。保护系统包括阻止任何玩家放置/破坏或与任何类型的方块交互，放置熔岩或水以及放置/点燃TNT。一旦建立，它还将显示在信息屏幕中。
+当你开始一个殖民地时，最初设置的区域还具有附加的保护。保护系统包括阻止任何玩家放置/破坏或与任何类型的方块交互，放置熔岩或水以及放置/点燃TNT。一旦建立，它还将显示在信息屏幕中。
 
-殖民地的受保护区域（一旦放置了市政厅）将取决于[配置](../Misc/configfile)，但默认情况下将是以您首次放置市政厅方块的位置为中心的4块半径。因此，请仔细规划您想要放置市政厅的位置。您受保护的殖民地区域包括从基岩到天际限制的山脉、丘陵、湖泊、海洋、洞穴、世界生成的结构等。
+殖民地的受保护区域（一旦放置了市政厅）将取决于[配置](../Misc/configfile)，但默认情况下将是以你首次放置市政厅方块的位置为中心的4块半径。因此，请仔细规划你想要放置市政厅的位置。你受保护的殖民地区域包括从基岩到天际限制的山脉、丘陵、湖泊、海洋、洞穴、世界生成的结构等。
 
-由于每个殖民地的受保护区域，您必须仔细勘察周围环境，确保您周围没有其他殖民地，以防止您放置市政厅或在该方向上限制您的殖民地区域。
+由于每个殖民地的受保护区域，你必须仔细勘察周围环境，确保你周围没有其他殖民地，以防止你放置市政厅或在该方向上限制你的殖民地区域。
 
-一旦放置市政厅方块，这将是您城镇受保护半径的中心。如果您决定希望实际的市政厅建筑建在不同的位置（在当前设置的受保护半径内），您可以使用建筑工具打破方块，然后再次放置它。删除并替换市政厅方块不会移除您城镇的受保护区域。唯一的方法是通过拥有OP或管理员权限的人通过[命令](../Systems/command)删除您的殖民地。
+一旦放置市政厅方块，这将是你城镇受保护半径的中心。如果你决定希望实际的市政厅建筑建在不同的位置（在当前设置的受保护半径内），你可以使用建筑工具打破方块，然后再次放置它。删除并替换市政厅方块不会移除你城镇的受保护区域。唯一的方法是通过拥有OP或管理员权限的人通过[命令](../Systems/command)删除你的殖民地。
 
-如果有另一个殖民地离您当前位置太近，您将无法放置市政厅。
+如果有另一个殖民地离你当前位置太近，你将无法放置市政厅。
 
-如果您尝试在受保护区域之外放置另一个市政厅，您将收到一条消息：
+如果你尝试在受保护区域之外放置另一个市政厅，你将收到一条消息：
 
 ![放置第二个市政厅](/assets/image/gui/buildings/townhall/th_secondplace.png)
 
 ### 删除殖民地
 
-要删除您的殖民地，请将一个市政厅放置在当前殖民地边界之外（通过挖掘或拆除旧的市政厅，或通过制作一个新的市政厅）。与当前边界之外的新放置的市政厅交互将提示您删除您的殖民地。
-或者，如果您具有适当的权限，您可以使用[命令](../Systems/command)。
+要删除你的殖民地，请将一个市政厅放置在当前殖民地边界之外（通过挖掘或拆除旧的市政厅，或通过制作一个新的市政厅）。与当前边界之外的新放置的市政厅交互将提示你删除你的殖民地。
+或者，如果你具有适当的权限，你可以使用[命令](../Systems/command)。
 
 ## 市政厅GUI
 
@@ -60,9 +66,9 @@ title: "市政厅"
 
 ![](/assets/image/gui/buildings/townhall/th_information.png)
 
-**第1页：** 在这里，您将看到一些有关您的居民的统计信息，比如您的最大居民数中有多少居民。绿色表示低于您的最大居民数的90%，橙色表示高于90%，红色表示已满。如果是红色，将鼠标悬停在数字上将显示您需要做什么来获取更多的居民。该页面还显示了您拥有的每种类型的工人数量。
+**第1页：** 在这里，你将看到一些有关你的居民的统计信息，比如你的最大居民数中有多少居民。绿色表示低于你的最大居民数的90%，橙色表示高于90%，红色表示已满。如果是红色，将鼠标悬停在数字上将显示你需要做什么来获取更多的居民。该页面还显示了你拥有的每种类型的工人数量。
 
-**第2页：** 在这里，您将看到殖民地居民的整体幸福度以及殖民地内发生的任何事件（最新的事件在底部）。您可以点击按钮切换到权限日志，它将显示在殖民地发生的任何非法行为（例如，如果玩家试图在不允许的情况下破坏方块）。点击非法行为旁边的加号将其更改为合法行为，如果玩家再次尝试执行该行为。有关更多信息，请参见[保护系统](../Systems/protection)和市政厅 GUI 的权限选项卡。
+**第2页：** 在这里，你将看到殖民地居民的整体幸福度以及殖民地内发生的任何事件（最新的事件在底部）。你可以点击按钮切换到权限日志，它将显示在殖民地发生的任何非法行为（例如，如果玩家试图在不允许的情况下破坏方块）。点击非法行为旁边的加号将其更改为合法行为，如果玩家再次尝试执行该行为。有关更多信息，请参见[保护系统](../Systems/protection)和市政厅 GUI 的权限选项卡。
 
 ### 行为
 
@@ -70,31 +76,30 @@ title: "市政厅"
 
 ![](/assets/image/gui/buildings/townhall/th_actions.png)
 
-{% building_gui_content_block_custom image_key="th_actions" image_alt="Townhall actions" cols=6 %}
-**第1页：** 在这里，您将看到您殖民地的名称~~，以及市政厅的建筑级别~~。还有以下按钮：
-- **建造选项：** 允许您创建市政厅的建造、升级、重新定位或修理建筑订单。要了解有关建筑系统的更多信息，请访问[建筑工小屋]页面。
-- **重命名殖民地：** 更改您殖民地的名称（默认为`{playername}的殖民地`）为您想要的任何名称。
-- **雇佣雇佣兵：** 在这里，您可以雇佣雇佣兵来帮助保卫殖民地。请注意，他们很凶恶，会从居民那里偷东西！
+**第1页：** 在这里，你将看到你殖民地的名称 ~~，以及市政厅的建筑级别~~。还有以下按钮：
+- **建造选项：** 允许你创建市政厅的建造、升级、重新定位或修理建筑订单。要了解有关建筑系统的更多信息，请访问[建筑工小屋]页面。
+- **重命名殖民地：** 更改你殖民地的名称（默认为`{playername}的殖民地`）为你想要的任何名称。
+- **雇佣雇佣兵：** 在这里，你可以雇佣雇佣兵来帮助保卫殖民地。请注意，他们很凶恶，会从居民那里偷东西！
 
-**第2页：** 仅在[配置文件](../Misc/configfile)中启用了PVP时才会启用。在这里，您可以找到：
-- **盟友：** 您已添加为盟友并已确认您殖民地为盟友的其他殖民地。
-- **敌对：** 您已添加为敌对并已确认您殖民地为敌对的其他殖民地。
+**第2页：** 仅在[配置文件](../Misc/configfile)中启用了PVP时才会启用。在这里，你可以找到：
+- **盟友：** 你已添加为盟友并已确认你殖民地为盟友的其他殖民地。
+- **敌对：** 你已添加为敌对并已确认你殖民地为敌对的其他殖民地。
 
 ### 权限
 
-在这里，您可以邀请其他玩家加入您的殖民地以进行协作。
+在这里，你可以邀请其他玩家加入你的殖民地以进行协作。
 
 ![](/assets/image/gui/buildings/townhall/th_permissions1.png)
 
 **第1页：** 在这里，输入你要添加的玩家的名称。
 
-**第2页：** 显示已添加的玩家列表以及他们当前的等级。您可以点击“-”或“+”来提升或降低他们的等级。
+**第2页：** 显示已添加的玩家列表以及他们当前的等级。你可以点击“-”或“+”来提升或降低他们的等级。
 
 ![](/assets/image/gui/buildings/townhall/th_permissions2.png)
 
-**第3页：** 在这里，您可以选择要管理的等级。
+**第3页：** 在这里，你可以选择要管理的等级。
 
-**第4页：** 这里是您可以切换*开*或*关*的个体权限（对于您在上一页上选择的等级），从而为每个等级提供所需的权限。
+**第4页：** 这里是你可以切换*开*或*关*的个体权限（对于你在上一页上选择的等级），从而为每个等级提供所需的权限。
 
 ::: tip
 `战斗卫兵`权限会使卫兵将玩家视为敌人并攻击他们。这仅建议用于敌对玩家。
@@ -102,57 +107,63 @@ title: "市政厅"
 
 ![](/assets/image/gui/buildings/townhall/th_permissions3.png)
 
-**第5页：** 在这里，您输入您希望使其可以互动的方块的位置（X、Y、Z）。
+**第5页：** 在这里，你输入你希望使其可以互动的方块的位置（X、Y、Z）。
 
-**第6页：** 在这里，您将看到您已添加为可以自由互动的方块位置的列表，并且可以删除它们。
+**第6页：** 在这里，你将看到你已添加为可以自由互动的方块位置的列表，并且可以删除它们。
 
-### **Citizens:** This section displays the names and skill levels of the citizens in your colony.
+### **市民：**
 
-{% building_gui_content_block_custom image_key="th_citizens" image_alt="Townhall citizens" cols=6 %}
-**Page 1:** When you select a citizen, their stats and job will appear here. You can also recall them to the Town Hall block on this page.
+此部分显示你殖民地中居民的姓名和技能水平。
 
-**Page 2:** Here you will see a list of the citizens in your colony. Select a citizen to see their skills.
-{% endbuilding_gui_content_block_custom %}
+![](/assets/image/gui/buildings/townhall/th_citizens.png)
+
+**第1页：** 当你选择一个居民时，他们的统计信息和工作将显示在这里。你还可以在此页面将他们召回到市政厅方块。
+
+**第2页：** 在这里，你将看到你殖民地中的居民列表。选择一个居民以查看他们的技能。
 
 ### 设置
 
-This section is where you can control how your citizens will be hired and assigned housing in your colony, among other things.
+这个部分是你可以控制你的居民将如何在你的殖民地中被雇佣和分配住房等其他事物的地方。
 
-{% building_gui_content_block_custom image_key="th_settings" image_alt="Townhall settings" cols=6 %}
-**Page 1:** There are four buttons here:
-- **Worker hiring mode:** Clicking on this button lets you switch between automatic or manual. If it's in automatic mode, you can't fire or hire any citizen from any worker hut and the best unemployed citizen will be hired for you. In manual mode you will be able to *hire* and *fire* whichever citizen you want at any time.
-- **Housing assignment mode:** Clicking on this button lets you switch between automatic or manual. If it's in automatic mode, citizens will be assigned a house as soon as they spawn (if housing is available). In manual mode, you can select which citizens will be housed in each [House](house) or [Tavern](tavern). This is better if you have a large colony and many workers spread out in a large area so you can house your citizens as close as possible to their workplace.
-- **Print help messages:** Clicking on this button lets you choose whether MineColonies help messages will appear in the chat. It is recommended that this be turned on for first-time players.
-- **Kids will be born:** Clicking on this button lets you choose whether new kids will be born in your colony.
+![](/assets/image/gui/buildings/townhall/th_settings.png)
 
-**Page 2:** There are three buttons here:
-- **Pick Team Color:** Whatever color you pick from here, your Guards will have a glow of this color around them when you put them in follow mode at their {% building_link guardtower %} or {% building_link barrackstower %}. This is for the PVP system, so you know which Guards are yours when you are fighting. Your citizens' names will also be in this color.
-- **Edit Colony Flag:** Clicking this button will open up a banner designer where you can design your colony banner. Your {% worker_link knight %} will wear the finished design on their shields, and it is also used in some schematics.
+**第1页：** 这里有四个按钮：
+- **工人雇佣模式：** 单击此按钮可在自动和手动之间切换。如果处于自动模式，你不能从任何工人小屋中解雇或雇佣任何居民，最好的失业居民将为你雇佣。在手动模式下，你可以随时雇佣和解雇任何你想要的居民。
+- **住房分配模式：** 单击此按钮可在自动和手动之间切换。如果处于自动模式，居民将在生成后立即分配一个房子（如果有房屋可用）。在手动模式下，你可以选择在每个[住宅](house)或[酒馆](tavern)中分配哪些居民的房子。如果你的殖民地很大，许多工人分布在一个大区域内，这样你就可以将你的居民尽可能靠近他们的工作场所。
+- **打印帮助消息：** 单击此按钮可选择是否在聊天中显示模拟殖民地帮助消息。建议新手玩家打开此选项。
+- **将诞生儿童：** 单击此按钮可选择是否允许在你的殖民地中诞生新儿童。
+
+**第2页：** 这里有三个按钮：
+- **选择团队颜色：** 无论你从这里选择什么颜色，当你将卫兵放在他们的[卫兵塔]或[兵营塔]中的跟随模式时，他们周围会有这种颜色的发光。这是为了PVP系统，这样你在战斗时就知道哪些卫兵是你的。你居民的姓名也将以此颜色显示。
+- **编辑殖民地旗帜：** 单击此按钮将打开一个横幅设计师，在这里你可以设计你的殖民地横幅。你的[骑士]将在他们的盾牌上戴上成品设计，它还用于一些示意图。
   ![Town hall GUI banner designer](/assets/image/gui/buildings/townhall/th_colonybannerdesigner.png)
-- **Switch Colony Pack:** This option controls the default selected style pack when opening the build tool.
-- **Pick Citizen Style:** The option controls how the citizens look. This feature is exclusive for donators.
-{% endbuilding_gui_content_block_custom %}
+- **切换殖民地包：** 此选项控制打开建筑工具时默认选择的风格包。
+- **选择居民风格：** 该选项控制居民的外观。此功能仅限捐赠者使用。
 
-### **Work Orders:** Here you will see the work orders your
+### 工作订单
 
-{% building_gui_content_block_custom image_key="th_workorders" image_alt="Townhall work orders" cols=6 %}
-All the work orders in the order they have been assigned. {% worker_link builder plural=true %} will not start another order until they have successfully completed the top one.
+这里你将看到你的工单
 
-**Page 1:** Blank page except for the header.
+![](/assets/image/gui/buildings/townhall/th_workorders.png)
 
-**Page 2:** Here are all the build orders for this colony (including decorations and your own schematics as well as huts). Your {% worker_link builder plural=true %} will complete the builds from top to bottom, and you can change the priority of the builds by moving them up or down in the list. You can also delete work orders. When you delete a work order that is currently being built, the Builder will stop building and will continue where they left off if you create the work order again."
-{% endbuilding_gui_content_block_custom %}
+按照它们被分配的顺序排列的所有工作订单。[建筑工]不会开始另一个订单，直到他们成功完成了顶部的订单。
 
-### **Statistics:** This is the section for the global happiness of your colony so you can see what area needs more attention to raise the happiness level.
+**第1页：** 除了标题之外，这是一个空白页。
 
-{% building_gui_content_block_custom image_key="th_statistics" image_alt="Townhall happiness" cols=6 %}
-**Page 1:** The happiness indices. You can keep track of the areas that will lower or raise the happiness of your citizens here. The colors, in order from best to worst, are:
-- Green (positive)
-- Blue (neutral)
-- Yellow (slightly negative)
-- Red (negative)
+**第2页：** 这里是此殖民地的所有建造订单（包括装饰和你自己的示意图以及小屋）。你的[建筑工]将按照从上到下的顺序完成建造，并且你可以通过在列表中将它们上移或下移来更改建造的优先级。你还可以删除工作订单。当你删除当前正在建造的工作订单时，建造者将停止建造，并且如果你再次创建工作订单，它将在离开的地方继续。
 
-There's also black, which will show up if something went wrong.
+### 统计
 
-**Page 2:** Blank page.
-{% endbuilding_gui_content_block_custom %}
+这是用于殖民地幸福度的部分，因此你可以看到哪个区域需要更多关注以提高幸福度水平。
+
+![](/assets/image/gui/buildings/townhall/th_statistics.png)
+
+**第1页：** 幸福指数。你可以在此跟踪将降低或提高你居民幸福度的区域。颜色按照从好到坏的顺序为：
+- 绿色（积极）
+- 蓝色（中性）
+- 黄色（略为负面）
+- 红色（负面）
+
+还有黑色，如果发生了错误，将显示出来。
+
+**第2页：** 除了标题之外，这是一个空白页。
