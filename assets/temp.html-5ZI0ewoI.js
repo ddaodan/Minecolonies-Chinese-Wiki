@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as r,e}from"./app-q5w7LNKR.js";const c={};function m(n,s){return o(),r("div",null,[e(" buildings "),e(" items "),e(" workers ")])}const l=t(c,[["render",m],["__file","temp.html.vue"]]);export{l as default};
