@@ -1,5 +1,5 @@
 ---
-title: 炼金塔
+title: "炼金塔"
 ---
 <!-- @include: ../temp.md -->
 # 炼金塔
