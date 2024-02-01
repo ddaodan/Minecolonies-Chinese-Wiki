@@ -1,4 +1,4 @@
-import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as t,a}from"./app-rX80dX-Q.js";const n={};function i(s,r){return o(),t("div",null,[a(` 
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as t,a}from"./app-rtQi05JD.js";const n={};function i(s,r){return o(),t("div",null,[a(` 
 # Data Pack
 
 [[toc]]
