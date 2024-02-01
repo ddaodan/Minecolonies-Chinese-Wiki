@@ -31,7 +31,7 @@ export default {
       },
       pwa: true
     },
-    pageInfo: ["Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
+    pageInfo: ["Original", "Category", "Tag", "Word", "ReadingTime"],
   }),
   base: "/Minecolonies-Chinese-Wiki/",
   title: "模拟殖民地 中文Wiki",

@@ -45,55 +45,66 @@ title: "市政厅"
 
 如果您尝试在受保护区域之外放置另一个市政厅，您将收到一条消息：
 
-![Placing a Second Town Hall](/assets/image/gui/buildings/townhall/th_secondplace.png)
+![放置第二个市政厅](/assets/image/gui/buildings/townhall/th_secondplace.png)
 
-### Deleting a Colony
+### 删除殖民地
 
-To delete your colony, place a Town Hall outside your current colony border (either by mining or deconstructing your old Town Hall or by crafting a new one). Interacting with the newly placed Town Hall outside of the current borders will prompt you to delete your colony.
-Alternatively, if you have the proper permissions, you can use [commands](../../source/systems/command).
+要删除您的殖民地，请将一个市政厅放置在当前殖民地边界之外（通过挖掘或拆除旧的市政厅，或通过制作一个新的市政厅）。与当前边界之外的新放置的市政厅交互将提示您删除您的殖民地。
+或者，如果您具有适当的权限，您可以使用[命令](../Systems/command)。
 
-## {% building %} GUI
+## 市政厅GUI
 
-### **Information:** This is the overall information section of the Town Hall GUI.
+### 信息
 
-{% building_gui_content_block_custom image_key="th_information" image_alt="Townhall information" cols=6 %}
-**Page 1:** Here you will see some statistics on your citizens, like the number of citizens you have out of your max. Green is less than 90% of your max, orange is above 90%, and red is full. If it's red, hovering over the numbers will show what you need to do to get more citizens. The page also shows how many of each type of worker you have.
+这是市政厅GUI的总体信息部分。
 
-**Page 2:** Here you will see the overall happiness of the colony's citizens and any events that happened within the colony (the newest events are at the bottom). You can click the button to switch to a permission log, which will show any illegal actions that happened in the colony (like if a player tried to break a block when they aren't allowed to). Clicking the plus next to an illegal action will change it to a legal action if the player tries to do it again. For more information, see the [Protection system](../../source/systems/protection) and the Permission tab of the {% building townhall %} GUI.
-{% endbuilding_gui_content_block_custom %}
+![](/assets/image/gui/buildings/townhall/th_information.png)
 
-### **Actions:** This is the most important section.
+**第1页：** 在这里，您将看到一些有关您的居民的统计信息，比如您的最大居民数中有多少居民。绿色表示低于您的最大居民数的90%，橙色表示高于90%，红色表示已满。如果是红色，将鼠标悬停在数字上将显示您需要做什么来获取更多的居民。该页面还显示了您拥有的每种类型的工人数量。
+
+**第2页：** 在这里，您将看到殖民地居民的整体幸福度以及殖民地内发生的任何事件（最新的事件在底部）。您可以点击按钮切换到权限日志，它将显示在殖民地发生的任何非法行为（例如，如果玩家试图在不允许的情况下破坏方块）。点击非法行为旁边的加号将其更改为合法行为，如果玩家再次尝试执行该行为。有关更多信息，请参见[保护系统](../Systems/protection)和市政厅 GUI 的权限选项卡。
+
+### 行为
+
+这是最重要的部分。
+
+![](/assets/image/gui/buildings/townhall/th_actions.png)
 
 {% building_gui_content_block_custom image_key="th_actions" image_alt="Townhall actions" cols=6 %}
-**Page 1:** Here you will see the name of your colony as well as the building level of the {% building townhall %}. And the buttons:
-- **Build Options:** Lets you create a build, upgrade, reposition, or repair build order for the {% building townhall %}. To learn more about the building system, please visit the {% building_link builder %} page.
-- **Rename Colony:** To change the name of your colony (from Your Username's Colony, which is the default) to anything you want.
-- **Hire Mercenaries:** Here you can hire mercenaries to help defend your colony. Be warned, they're mean and will steal from citizens!
+**第1页：** 在这里，您将看到您殖民地的名称~~，以及市政厅的建筑级别~~。还有以下按钮：
+- **建造选项：** 允许您创建市政厅的建造、升级、重新定位或修理建筑订单。要了解有关建筑系统的更多信息，请访问[建筑工小屋]页面。
+- **重命名殖民地：** 更改您殖民地的名称（默认为`{playername}的殖民地`）为您想要的任何名称。
+- **雇佣雇佣兵：** 在这里，您可以雇佣雇佣兵来帮助保卫殖民地。请注意，他们很凶恶，会从居民那里偷东西！
 
-**Page 2:** This is only enabled if PVP is turned on in the [config file](../../source/misc/configfile). Here you have:
-- **Allies:** Other colonies that you have added as allies and that have confirmed your colony as an ally as well.
-- **Feuds:** Other colonies that you have added as a feud and that have confirmed your colony as a feud as well.
-{% endbuilding_gui_content_block_custom %}
+**第2页：** 仅在[配置文件](../Misc/configfile)中启用了PVP时才会启用。在这里，您可以找到：
+- **盟友：** 您已添加为盟友并已确认您殖民地为盟友的其他殖民地。
+- **敌对：** 您已添加为敌对并已确认您殖民地为敌对的其他殖民地。
 
-### **Permissions:** Here you can invite other players to your colony to collaborate.
+### 权限
 
-{% building_gui_content_block_custom image_key="th_permissions1" image_alt="Townhall permissions" cols=6 %}
-**Page 1:** Here you type the name of the player you want to add.
+在这里，您可以邀请其他玩家加入您的殖民地以进行协作。
 
-**Page 2:** Shows the list of players that have ben added as well as their current rank. You can click on the "-" or "+" to give them a higher rank or lower rank.
-{% endbuilding_gui_content_block_custom %}
+![](/assets/image/gui/buildings/townhall/th_permissions1.png)
 
-{% building_gui_content_block_custom image_key="th_permissions2" image_alt="Townhall permissions" cols=6 %}
-**Page 3:** Here you can select the rank that you would like to manage.
+**第1页：** 在这里，输入你要添加的玩家的名称。
 
-**Page 4:** Here are the individual permissions (for the rank you have selected on the previous page) that you can toggle *ON* or *OFF*, giving each rank the permission you want. **Note:** the Fight Guards permission causes Guards to treat the player as an enemy and attack them. It is only recommended for Hostile players.
-{% endbuilding_gui_content_block_custom %}
+**第2页：** 显示已添加的玩家列表以及他们当前的等级。您可以点击“-”或“+”来提升或降低他们的等级。
 
-{% building_gui_content_block_custom image_key="th_permissions3" image_alt="Townhall permissions" cols=6 %}
-**Page 5:** Where you enter the position (X, Y, Z) of the block that you want to make free for interaction.
+![](/assets/image/gui/buildings/townhall/th_permissions2.png)
 
-**Page 6:** Here you will see the list of block positions that you have added as free for interaction and can remove them.
-{% endbuilding_gui_content_block_custom %}
+**第3页：** 在这里，您可以选择要管理的等级。
+
+**第4页：** 这里是您可以切换*开*或*关*的个体权限（对于您在上一页上选择的等级），从而为每个等级提供所需的权限。
+
+::: tip
+`战斗卫兵`权限会使卫兵将玩家视为敌人并攻击他们。这仅建议用于敌对玩家。
+:::
+
+![](/assets/image/gui/buildings/townhall/th_permissions3.png)
+
+**第5页：** 在这里，您输入您希望使其可以互动的方块的位置（X、Y、Z）。
+
+**第6页：** 在这里，您将看到您已添加为可以自由互动的方块位置的列表，并且可以删除它们。
 
 ### **Citizens:** This section displays the names and skill levels of the citizens in your colony.
 
@@ -103,7 +114,9 @@ Alternatively, if you have the proper permissions, you can use [commands](../../
 **Page 2:** Here you will see a list of the citizens in your colony. Select a citizen to see their skills.
 {% endbuilding_gui_content_block_custom %}
 
-### **Settings:** This section is where you can control how your citizens will be hired and assigned housing in your colony, among other things.
+### 设置
+
+This section is where you can control how your citizens will be hired and assigned housing in your colony, among other things.
 
 {% building_gui_content_block_custom image_key="th_settings" image_alt="Townhall settings" cols=6 %}
 **Page 1:** There are four buttons here:
